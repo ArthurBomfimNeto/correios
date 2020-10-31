@@ -51,7 +51,6 @@ app.post('/frete', (req,res) => {
         console.log(result)
         res.status(200).json(result)
     })
-
 })
 //associa o servidor ao cors 
 
